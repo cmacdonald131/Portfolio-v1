@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="shortcut icon" href="#">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="#home" class="active">CM</a>
+        <div id="myLinks">
+            <a href="#bio" class="navLink">About Me</a>
+            <a href="#projects" class="navLink">Projects</a>
+            <a href="#skills" class="navLink">Skills</a>
+            <a href="#contact" class="navLink">Contact</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()" aria-label="Open the menu">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </a>
+    </nav>
+
+    <main class="mainContainer" aria-live="assertive">
+        <header id="home">
+            <h1>Chris MacDonald</h1>
+            <h2>Software Engineer</h2>
+
+            <h3>Let's move towards the future</h3>
+        </header>
+
+        <section class="main" id="bio">
+            <h2 class="title">About Me</h2>
+            <img src="images/dominosit.jpg" alt="dominosit" class="images">
+            <p>I am a current student enrolled in the Software Engineering Flex program at Thinkful. I really enjoy
+                coding because it gives me the opportunity to solve problems and see my creations come to life. I love
+                completing projects, learning new materials and languages, and interacting with new programs. I'm
+                excited to collaborate with fellow programmers to work on projects, and to learn and grow from their
+                experience.</p>
+            <img src="images/girls.jpg" alt="girls on couch" class="images">
+            <p>When I'm not learning, I'm chasing after my kids. I have three daughters (14, 4, 2), so my hands are
+                completely full. When I have free time I love playing video games and watching football. Though the
+                mountain of laundry I have keeps me from that most of the time.</p>
+        </section>
+
+        <section class="main" id="projects">
+            <h2 class="title">Projects</h2>
+            <div class="card">
+                <div class="box">
+                    <img src="images/proj1.png" alt="proj1" class="images">
+                    <h3>Married with Children Quiz App</h3>
+                    <p>
+                        This app was created to test your knowledge about the 90's hit show "Married...with Children".
+                    </p>
+                    <p>
+                        Technologies: HTML, CSS, Javascript, JQuery
+                    </p>
+                    <a href="https://cmacdonald131.github.io/Quiz-App/" class="btn-live btn" target="_blank">Live</a>
+                    <a href="https://github.com/cmacdonald131/Quiz-App.git" class="btn-link btn"
+                        target="_blank">GitHub</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img src="images/proj2.png" alt="proj2" class="images">
+                    <h3>Find a Friend</h3>
+                    <p>
+                        This app was created to help people interested in adoption to help pets find their "furever"
+                        homes.
+                    </p>
+                    <p>
+                        Technologies: HTML, CSS, Javascript, JQuery
+                    </p>
+                    <a href="https://cmacdonald131.github.io/Find-a-Friend/" class="btn-live btn"
+                        target="_blank">Live</a>
+                    <a href="https://github.com/cmacdonald131/Find-a-Friend.git" class="btn-link btn"
+                        target="_blank">GitHub</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img src="images/proj3.png" alt="proj3" class="images">
+                    <h3>FFDb (Fantasy Football Database)</h3>
+                    <p>
+                        This app was created to help manage your fantasy football teams.
+                    </p>
+                    <p>
+                        Technologies: React, Node, Express, PostgreSQL
+                    </p>
+                    <a href="https://ffdb-app.now.sh/" class="btn-live btn"
+                        target="_blank">Live</a>
+                    <a href="https://github.com/cmacdonald131/ffdb-app.git" class="btn-link btn"
+                        target="_blank">GitHub</a>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="main" id="skills">
+            <h2 class="title">Skills</h2>
+            <ul>
+                <li>React</li>
+                <li>Node</li>
+                <li>Express</li>
+                <li>PostgreSQL</li>
+                <li>Javascript</li>
+                <li>JQuery</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+        </section>
+
+        <section class="main" id="contact">
+            <h2 class="title">Keep in Touch</h2>
+            <a href="mailto:cmacdonald131@gmail.com" class="email cont" target="_blank">Email Me</a>
+            <a href="https://github.com/cmacdonald131" class="gitHub cont" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/christopher-macdonald-67712a199/" class="linkedin cont"
+                target="_blank">Linkedin</a>
+
+        </section>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script src="main.js"></script>
+
+
+    </main>
+</body>
+
+</html>
